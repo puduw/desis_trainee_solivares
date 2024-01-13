@@ -1,0 +1,71 @@
+/* Tamaño de letra */
+body {
+    font-size: 16px;
+}
+
+/* Estilos para input y select */
+input[type="text"],
+input[type="number"],
+select {
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid #000; /* Estilo de borde sólido */
+    background-color: transparent;
+    padding-left: 5px;
+    /* Otros estilos según sea necesario */
+}
+
+/* Botón de Reservar */
+/* Estilos para los botones */
+/* Estilos para los botones */
+.btn-reservar,
+.btn-borrar,
+.btn-recordar {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid transparent; /* Añadimos un borde transparente */
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave al pasar el mouse */
+    margin: 5px; /* Agregamos un margen de 5px alrededor del botón */
+}
+
+/* Estilos para los estados hover (al pasar el mouse) */
+.btn-reservar:hover
+{
+    background-color: transparent;
+    color: #58B957; /* Cambia el color del texto */
+    border-color: #58B957; /* Cambia el color del borde */
+}
+.btn-borrar:hover{
+    background-color: transparent;
+    color: #FF5757; /* Cambia el color del texto */
+    border-color: #FF5757; /* Cambia el color del borde */
+}
+.btn-recordar:hover {
+    background-color: transparent;
+    color: #4A90E2; /* Cambia el color del texto */
+    border-color: #4A90E2; /* Cambia el color del borde */
+}
+
+/* Estilos adicionales para cada botón */
+.btn-reservar {
+    background-color: #58B957;
+}
+
+.btn-borrar {
+    background-color: #FF5757; /* Cambia el color de fondo */
+}
+
+.btn-recordar {
+    background-color: #4A90E2; /* Cambia el color de fondo */
+}
+
+
+.tr-resize {
+    transform: scale(0.5); /* Redimensiona a la mitad */
+}
